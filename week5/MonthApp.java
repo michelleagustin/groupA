@@ -5,7 +5,9 @@ public class MonthApp {
     public static void main(String[] args) {
 
         // Code now shows all three collection types to meet assignment requirements
+        @SuppressWarnings("unchecked")
         Month<Integer>[] monthNumberArray = new Month[12];
+        @SuppressWarnings("unchecked")
         Month<String>[] monthNameArray = new Month[12];
 
         
